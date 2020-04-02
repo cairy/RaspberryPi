@@ -9,6 +9,7 @@
 ## 创建目录
 
 ```shell
+cd /
 sudo mkdir scripts
 ```
 
