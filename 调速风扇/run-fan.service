@@ -1,0 +1,11 @@
+[Unit]
+Description=to control the fan based on temperature.
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python /scripts/fan_speed.py
+Restart=always
+RestartSec=20
+
+[Install]
+WantedBy=graphical.target
