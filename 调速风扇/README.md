@@ -2,6 +2,10 @@
 
 ## ssh连接
 
+- 主机名：`raspberrypi.local`
+- 用户名 : `pi`
+- 密码 : `raspberry`
+
 ## 创建目录
 
 ```shell
@@ -12,8 +16,8 @@ sudo mkdir scripts
 
 ```shell
 cd scripts
-wget https://github.com/cairy/RaspberryPi/raw/master/%E8%B0%83%E9%80%9F%E9%A3%8E%E6%89%87/fan_speed.py
-wget https://github.com/cairy/RaspberryPi/raw/master/%E8%B0%83%E9%80%9F%E9%A3%8E%E6%89%87/run-fan.service
+sudo wget https://github.com/cairy/RaspberryPi/raw/master/%E8%B0%83%E9%80%9F%E9%A3%8E%E6%89%87/fan_speed.py
+sudo wget https://github.com/cairy/RaspberryPi/raw/master/%E8%B0%83%E9%80%9F%E9%A3%8E%E6%89%87/run-fan.service
 #添加执行权限
 sudo chmod 755 fan_speed.py
 sudo chmod 777 run-fan.service
