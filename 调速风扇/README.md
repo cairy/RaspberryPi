@@ -17,6 +17,9 @@ sudo mkdir scripts
 
 ```shell
 cd scripts
+#可能需要设置代理
+export https_proxy='192.168.1.135:1080'
+#获取文件
 sudo wget https://github.com/cairy/RaspberryPi/raw/master/%E8%B0%83%E9%80%9F%E9%A3%8E%E6%89%87/fan_speed.py
 sudo wget https://github.com/cairy/RaspberryPi/raw/master/%E8%B0%83%E9%80%9F%E9%A3%8E%E6%89%87/run-fan.service
 #添加执行权限
